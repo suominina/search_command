@@ -1,0 +1,2 @@
+pvcreate [オプション名] [デバイス,パーティション名] //LVMの物理ボリュームを作成
+	//pvcreate /dev/sda2 で/dev/sda2に物理ボリュームを作成

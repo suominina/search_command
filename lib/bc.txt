@@ -1,0 +1,1 @@
+bc [オプション] //数値計算をするコマンド, 詳細はhttps://webkaru.net/linux/bc-command/

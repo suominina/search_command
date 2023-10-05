@@ -1,0 +1,4 @@
+sleep 秒数 //指定した秒数コマンドの実行を遅らせる
+	while true;do
+    		date; sleep 2;
+	done

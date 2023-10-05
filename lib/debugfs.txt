@@ -1,0 +1,6 @@
+debugs [オプション] [デバイスファイル名] //ext2, ext3, ext4ファイルシステムの対話的なデバッガツール。ファイルシステムの状態の調査・変更を行うことが可能
+	-w //ファイルシステムを読み書き可能なモードでオープン
+	-l コマンドファイル //コマンドファイルからのコマンドを読み込ませ、実行する
+	stat filespec //filespecで指定したiノードの構造体の内容を表示する。filespecはiノード番号を<>で囲むか、パス名で指定する。
+	dump [-p] file spec out_file //filespecで指定したiノードと、out_fileで指定したファイルを関連づける。-pオプションを与えると、out_fileの所有者(owner)、所有者グループ(group)、パーミッション(permission)をfilespecと同じにする。
+	quit //debugfsを終了する
