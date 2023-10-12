@@ -92,9 +92,7 @@ while True:
     if doContinue == 'n':
         break
 
-# TODO オブジェクト化する
-# TODO mainファイルと関数定義などのファイルに分ける
-# TODO 検索履歴を表示(特定のコマンドの検索履歴)
+
 # TODO docstringを記載する
 # TODO 実際にコマンドを実行するオプション -e
 # TODO 表示できるコマンドをすべて表示するサブコマンド HELP
